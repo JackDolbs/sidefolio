@@ -1,15 +1,15 @@
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://comcat.dev",
+    title: "Comcat",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "The #1 front-end contractor for dApps.",
     thumbnail: "/images/sidefolio-aceternity.png",
     images: [
       "/images/sidefolio-aceternity.png",
       "/images/sidefolio-aceternity-2.png",
     ],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Nextjs", "React", "TailwindCSS", "ethers.js", "web3.js", "Solana JS SDK"],
     slug: "aceternity",
     content: (
       <div>
@@ -33,10 +33,10 @@ export const products = [
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://o2xc.capital",
+    title: "O2XC Capital",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
+      "Web3 venture fund backing startups at pre-seed/seed stages.",
     thumbnail: "/images/sidefolio-algochurn.png",
     images: [
       "/images/sidefolio-algochurn.png",

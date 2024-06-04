@@ -8,20 +8,20 @@ import { Blogs } from "@/components/Blogs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blogs | John Doe",
+  title: "Journal | Jack Dolby",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "A collection of my thoughts and opinions.",
 };
 
-export default async function Blog() {
+export default async function Journal() {
   const blogs = await getAllBlogs();
   const data = blogs.map(({ component, ...meta }) => meta);
 
   return (
     <Container>
-      <Heading className="font-black pb-4">Blog Posts</Heading>
+      <Heading className="font-black pb-4">Journal</Heading>
       <Paragraph className="pb-10">
-        A collection of my structured thoughts and opinions.
+      My digital commonplace journal.
       </Paragraph>
       <Blogs blogs={data} />
     </Container>
