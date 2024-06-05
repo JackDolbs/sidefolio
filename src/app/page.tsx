@@ -10,13 +10,11 @@ export default function Home() {
   return (
     <Container>
       <Heading className="font-black">Hi, I&apos;m Jack</Heading>
-      <Paragraph className="max-w-3xl mt-4">
-        I&apos;m a front-end developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
-        I have over{" "}
-        <Highlight>5 years of experience</Highlight> building decentralized applications
-        that are performance optimized and good looking. You can hire me to work on front-end via my company <a href="https://comcat.dev" className="underline underline-offset-2 hover:text-neutral-800">Comcat</a>.
+      <Paragraph className="max-w-4xl mt-4">
+      I'm a front-end engineer with over {" "}
+      <Highlight>5 years of experience</Highlight>  
+      in senior startup roles. I specialize in creating scalable, user-friendly interfaces using React, Next.js, and TailwindCSS. I've contributed to the ERC-7621 token standard, scaled a DeFi protocol to $50m TVL, and deployed over $1.25m into private investment opportunities. 
+      I currently lead Comcat, providing front-end solutions for decentralized applications, and I'm a partner at O2XC, a Web3 venture firm.
       </Paragraph>
       <Heading
         as="h2"
@@ -25,7 +23,6 @@ export default function Home() {
         What I&apos;m working on right now
       </Heading>
       <Products />
-      <TechStack />
     </Container>
   );
 }

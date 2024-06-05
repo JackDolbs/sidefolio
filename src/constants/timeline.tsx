@@ -1,9 +1,9 @@
 export const timeline = [
   {
-    company: "Amazon",
-    title: "Senior Software Engineer",
-    date: "2022 - Present",
-    description: "Building the future of e-commerce",
+    company: "Comcat",
+    title: "Front-end Engineer",
+    date: "Aug 2023 - Present",
+    description: "Contracting engineer for decentralized applications",
     responsibilities: [
       "Developed a new feature that improves the shopping experience",
       "Implemented a recommendation algorithm to suggest products",
@@ -12,10 +12,10 @@ export const timeline = [
     ],
   },
   {
-    company: "Google",
-    title: "Senior Software Engineer",
-    date: "2021 - 2022",
-    description: "Building the future of search",
+    company: "The VEMP Group",
+    title: "Ventures Lead | Head of Strategy & Operations",
+    date: "Oct 2021 - Jul 2023",
+    description: "Web3 venture studio",
     responsibilities: [
       "Improved the search algorithm to provide more relevant results",
       "Developed a new feature that personalizes search results",
@@ -24,10 +24,10 @@ export const timeline = [
     ],
   },
   {
-    company: "Facebook",
-    title: "Senior Software Engineer",
-    date: "2020 - 2021",
-    description: "Building the future of social networking",
+    company: "Gear Technologies",
+    title: "Chief Writer & Editor",
+    date: "Oct 2021 - Dec 2022",
+    description: "Toolkit for dApp creation and layer-0 technologies",
     responsibilities: [
       "Developed a new feature that improves the user experience",
       "Implemented a recommendation algorithm to suggest friends",
@@ -36,10 +36,10 @@ export const timeline = [
     ],
   },
   {
-    company: "Apple",
-    title: "Senior Software Engineer",
-    date: "2019 - 2020",
-    description: "Building the future of technology",
+    company: "IOHK",
+    title: "Technical Writer & Editor",
+    date: "Jun 2021 - Oct 2021",
+    description: "Blockchain research and development company",
     responsibilities: [
       "Improved the iOS operating system to enhance user experience",
       "Developed a new feature that personalizes user interface",
@@ -48,15 +48,15 @@ export const timeline = [
     ],
   },
   {
-    company: "Microsoft",
-    title: "Senior Software Engineer",
-    date: "2018 - 2019",
-    description: "Building the future of software",
+    company: "Freelance",
+    title: "Copywriter",
+    date: "Sep 2018 - June 2021",
+    description: "Writer for traditional SaaS startups",
     responsibilities: [
-      "Improved the Windows operating system to enhance user experience",
+      "Improved the iOS operating system to enhance user experience",
       "Developed a new feature that personalizes user interface",
-      "Enhanced the office suite to improve productivity",
-      "Implemented a feature for tracking software usage",
+      "Enhanced the app store algorithm to suggest more relevant apps",
+      "Implemented a feature for tracking app usage",
     ],
   },
 ];

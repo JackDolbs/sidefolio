@@ -69,49 +69,27 @@ export default function About() {
         // /> */}
       </div>
 
-      <div className="max-w-4xl">
+      <div className="max-w-3xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
+        Hi, I’m Jack. I’m a developer focused on building next-gen web applications. With over five years of experience in senior startup roles, I specialize in engineering, product management, and BD.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
-        </Paragraph>
-
-        <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+        I started my career with a deep interest in startups, specifically regarding blockchains. Over the years, I’ve been lucky enough to work with both large R&D companies and agile startups. Notable achievements include helping create the ERC-7621 token standard, scaling a DeFi protocol to $50m TVL, and deploying over $1.25 million into private investment opportunities.
         </Paragraph>
         <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+        Currently, I’m the sole engineer at Comcat, a front-end contractor service for decentralized applications. I’m also a founder and partner at O2XC, an upcoming Web3 venture firm backing startups at the pre-seed and seed stages.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
+        My interest in Web3 comes from its potential to reshape how people interact with modern tech services. I’m driven by the opportunity to create a more transparent, equitable, and secure economy, and working in Web3 allows me to do that.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
+        Outside of work, I keep busy with multiple interests. I practice jiu-jitsu, play chess, read, and enjoy bouldering and running. I also love to travel and explore new places and cultures.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+        This site showcases my professional background and provides insight into my life. It acts as a repository for my structured thoughts and commonplace notes.
+        </Paragraph>
+        <Paragraph className=" mt-4">
+        Feel free to reach out if you’d like to connect.
         </Paragraph>
       </div>
     </div>

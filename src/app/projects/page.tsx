@@ -2,7 +2,7 @@ import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
-import { Products } from "@/components/Products";
+import { History } from "@/components/History";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -20,7 +20,7 @@ export default function Projects() {
         Projects I&apos;ve worked on before
       </Heading>
 
-      <Products />
+      <History />
     </Container>
   );
 }
