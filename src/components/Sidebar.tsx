@@ -4,13 +4,13 @@ import { Navlink } from "@/types/navlink";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { twMerge } from "tailwind-merge";
 import { Heading } from "./Heading";
 import { socials } from "@/constants/socials";
 import { Badge } from "./Badge";
 import { AnimatePresence, motion } from "framer-motion";
-import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
+import { IconMenu2 } from "@tabler/icons-react";
 
 const isMobile = () => {
   if (typeof window === "undefined") return false;
@@ -21,18 +21,38 @@ const isMobile = () => {
 export const Sidebar = () => {
   const [open, setOpen] = useState(isMobile() ? false : true);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setOpen(true);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <>
+      {open && (
+        <div
+          onClick={() => setOpen(false)}
+          className="absolute inset-0 z-50 lg:hidden"
+        />
+      )}
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ x: -200 }}
+            initial={{ x: -288 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
-            exit={{ x: -200 }}
-            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen left-0 flex flex-col justify-between"
+            exit={{ x: -288 }}
+            className="px-6 z-50 py-10 bg-neutral-100 w-[18rem] lg:w-fit absolute lg:static flex flex-col justify-between h-screen lg:h-auto overflow-y-auto"
           >
-            <div className="">
+            <div className="relative z-50">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
@@ -41,10 +61,10 @@ export const Sidebar = () => {
         )}
       </AnimatePresence>
       <button
-        className="fixed lg:hidden bottom-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-10"
+        className="absolute lg:hidden top-16 right-6 h-14 w-14 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50"
         onClick={() => setOpen(!open)}
       >
-        <IconLayoutSidebarRightCollapse className="h-4 w-4 text-secondary" />
+        <IconMenu2 className="h-4 w-4 text-secondary" />
       </button>
     </>
   );
@@ -67,13 +87,13 @@ export const Navigation = ({
           href={link.href}
           onClick={() => isMobile() && setOpen(false)}
           className={twMerge(
-            "text-secondary hover:text-primary transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-sm",
+            "text-secondary hover:text-primary transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-md",
             isActive(link.href) && "bg-white shadow-lg text-primary"
           )}
         >
           <link.icon
             className={twMerge(
-              "h-4 w-4 flex-shrink-0",
+              "hidden lg:flex h-4 w-4 flex-shrink-0",
               isActive(link.href) && "text-sky-500"
             )}
           />
@@ -81,7 +101,9 @@ export const Navigation = ({
         </Link>
       ))}
 
-      <Heading as="p" className="text-sm md:text-sm lg:text-sm pt-10 px-2">
+      <hr className="mt-4" />
+
+      <Heading as="p" className="text-md md:text-sm lg:text-sm pt-10 pb-2 px-2">
         Connect with me
       </Heading>
       {socials.map((link: Navlink) => (
@@ -107,7 +129,7 @@ export const Navigation = ({
 
 const SidebarHeader = () => {
   return (
-    <div className="flex space-x-2">
+    <div className="hidden lg:flex space-x-2">
       <Image
         src="https://pbs.twimg.com/profile_images/1752683831503589376/d1MIGj3z_400x400.jpg"
         alt="Avatar"

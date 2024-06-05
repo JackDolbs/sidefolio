@@ -18,7 +18,7 @@ export default function Home() {
       </Paragraph>
       <Heading
         as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
+        className="font-black text-2xl md:text-lg lg:text-lg mt-10 lg:mt-20 mb-4"
       >
         What I&apos;m working on right now
       </Heading>
