@@ -10,7 +10,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "nodeweb-ai",
     content: (
       <div>
         <p>
@@ -43,7 +43,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "stabble",
     content: (
       <div>
         <p>
@@ -76,7 +76,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "mousetrap",
     content: (
       <div>
         <p>
@@ -109,7 +109,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "gamerly",
     content: (
       <div>
         <p>
@@ -142,7 +142,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "vemp",
     content: (
       <div>
         <p>
@@ -175,7 +175,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "alvara",
     content: (
       <div>
         <p>
@@ -208,7 +208,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "gear",
     content: (
       <div>
         <p>
@@ -241,7 +241,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "vara",
     content: (
       <div>
         <p>
@@ -274,7 +274,7 @@ export const history = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: [""],
-    slug: "aceternity",
+    slug: "iohk",
     content: (
       <div>
         <p>
