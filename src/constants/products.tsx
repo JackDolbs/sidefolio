@@ -4,10 +4,11 @@ export const products = [
     title: "Comcat",
     description:
       "The #1 front-end contractor for dApps.",
-    thumbnail: "/images/sidefolio-aceternity.png",
+    thumbnail: "/images/comcat1.png",
     images: [
-      "/images/sidefolio-aceternity.png",
-      "/images/sidefolio-aceternity-2.png",
+      "/images/comcat2.png",
+      "/images/comcat3.png",
+      "/images/comcat4.png",
     ],
     stack: ["Nextjs", "React", "TailwindCSS", "ethers.js", "web3.js", "Solana JS SDK"],
     slug: "comcat",
@@ -24,10 +25,12 @@ export const products = [
     title: "O2XC Capital",
     description:
       "Web3 venture fund backing startups at pre-seed/seed stages.",
-    thumbnail: "/images/sidefolio-algochurn.png",
+    thumbnail: "/images/o2xc1.png",
     images: [
-      "/images/sidefolio-algochurn.png",
-      "/images/sidefolio-algochurn-2.png",
+      "/images/o2xc1.png",
+      "/images/o2xc2.png",
+      "/images/o2xc3.png",
+
     ],
     stack: [""],
     slug: "o2xc",
