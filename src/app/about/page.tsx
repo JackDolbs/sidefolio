@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
+  title: "About | Jack Dolby",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+  "Jack Dolby is a developer, writer and investor. He is passionate about building things and sharing his knowledge with others. He is currently working as a front-end developer as a contractor."
 };
 
 export default function AboutPage() {

@@ -10,25 +10,12 @@ export const products = [
       "/images/sidefolio-aceternity-2.png",
     ],
     stack: ["Nextjs", "React", "TailwindCSS", "ethers.js", "web3.js", "Solana JS SDK"],
-    slug: "aceternity",
+    slug: "comcat",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        Comcat is a front-end contractor service dedicated to helping decentralized applications (dApps) accelerate their development processes by handling time-consuming front-end tasks. With expertise in UI enhancements, bug fixes, and smart contract integrations, Comcat enables engineering teams to focus on more important engineering tasks. Their flexible subscription plans cater to the dynamic needs of small engineering teams, offering scalable support without long-term commitments.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
@@ -43,25 +30,12 @@ export const products = [
       "/images/sidefolio-algochurn-2.png",
     ],
     stack: [""],
-    slug: "algochurn",
+    slug: "o2xc",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        O2XC is a Web3 venture capital firm dedicated to backing startups at the pre-seed and seed stages. Their mission is to redefine venture capital by leveraging the potential of decentralized technologies to empower early-stage companies. O2XC provides strategic support and funding to innovative projects, ensuring they have the resources and guidance needed to succeed in the evolving blockchain ecosystem. Their approach emphasizes transparency, community engagement, and the transformative power of Web3 to create more equitable economic opportunities.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },

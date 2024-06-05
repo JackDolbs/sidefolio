@@ -11,10 +11,10 @@ export default function Home() {
     <Container>
       <Heading className="font-black">Hi, I&apos;m Jack</Heading>
       <Paragraph className="max-w-4xl mt-4">
-      I'm a front-end engineer with over {" "}
+      I'm a software engineer with over{" "}
       <Highlight>5 years of experience</Highlight>  
-      in senior startup roles. I specialize in creating scalable, user-friendly interfaces using React, Next.js, and TailwindCSS. I've contributed to the ERC-7621 token standard, scaled a DeFi protocol to $50m TVL, and deployed over $1.25m into private investment opportunities. 
-      I currently lead Comcat, providing front-end solutions for decentralized applications, and I'm a partner at O2XC, a Web3 venture firm.
+      in senior startup roles. I specialize in creating scalable, user-friendly interfaces for decentralized applications using React, Next.js, and TailwindCSS. I've contributed to the ERC-7621 token standard, scaled a DeFi protocol to $50m TVL, and deployed over $1.25m into private investment opportunities. 
+      I currently lead Comcat, providing front-end engineering solutions for dApps, and I'm a partner at O2XC, a Web3 venture firm.
       </Paragraph>
       <Heading
         as="h2"
